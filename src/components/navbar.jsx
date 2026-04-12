@@ -3,10 +3,10 @@ import { NavLink } from 'react-router-dom'
 
 const links = [
 	{ label: 'Home', to: '/' },
-	{ label: 'Chat', to: '/chat' },
 	{ label: 'Events', to: '/events' },
 	{ label: 'Lost & Found', to: '/lostfound' },
 	{ label: 'Marketplace', to: '/marketplace' },
+	{ label: 'Chat', to: '/chat' },
 	{ label: 'Profile', to: '/profile' },
 ]
 
