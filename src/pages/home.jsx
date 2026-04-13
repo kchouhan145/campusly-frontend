@@ -626,6 +626,7 @@ function Home() {
     const handleAnnouncementNotification = (payload) => {
       const title = payload?.title || 'Important announcement'
       const body = payload?.content || 'Open Campusly to read the latest update.'
+      setMessage(`New announcement: ${title}`)
       notifyBrowser(title, body)
       refreshFromSocket()
     }
@@ -641,6 +642,7 @@ function Home() {
       const body = payload?.teacherName
         ? `Posted by ${payload.teacherName}`
         : payload?.content || 'Open Campusly to read the latest update.'
+      setMessage(`New announcement: ${title}`)
       notifyBrowser(title, body)
       refreshFromSocket()
     }
