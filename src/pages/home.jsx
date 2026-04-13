@@ -732,7 +732,7 @@ function Home() {
 
     return (
       <section className="space-y-6">
-        <div className="rounded-2xl border border-slate-200 bg-gradient-to-r from-slate-950 via-slate-900 to-cyan-950 p-6 text-white shadow-sm">
+        <div className="rounded-2xl border border-slate-200 bg-linear-to-r from-slate-950 via-slate-900 to-cyan-950 p-6 text-white shadow-sm">
           <div className="flex flex-col gap-5 sm:flex-row sm:items-start sm:justify-between">
             <div>
               <p className="text-xs font-semibold uppercase tracking-[0.25em] text-cyan-200">
@@ -1209,7 +1209,7 @@ function Home() {
 
   return (
     <section className="mx-auto max-w-6xl space-y-6 py-8">
-      <article className="relative overflow-hidden rounded-3xl border border-cyan-200 bg-gradient-to-r from-cyan-700 via-sky-700 to-indigo-800 p-6 text-white shadow-lg sm:p-8">
+      <article className="relative overflow-hidden rounded-3xl border border-cyan-200 bg-linaer-to-r from-cyan-700 via-sky-700 to-indigo-800 p-6 text-white shadow-lg sm:p-8">
         <div className="absolute -left-16 -top-16 h-52 w-52 rounded-full bg-white/20 blur-3xl" />
         <div className="absolute -bottom-20 right-0 h-56 w-56 rounded-full bg-cyan-200/20 blur-3xl" />
 
